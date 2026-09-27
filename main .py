@@ -14,7 +14,7 @@ you = Dict[youstr]
 
 print(f"you choice {reverseDict[you]}\n computer choice {reverseDict[computer]}")
 if (computer == you):
-    print("The game is draw because imran boss played so goood")
+    print("The game is Draw")
 else:
     if((computer - you) == -1 or (computer - you) == 2 ) :
         print("you loss")
